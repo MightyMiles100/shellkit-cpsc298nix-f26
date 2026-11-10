@@ -1,0 +1,27 @@
+name: Script tests
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "tests/**"
+      - ".github/workflows/tests.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "tests/**"
+      - ".github/workflows/tests.yml"
+
+jobs:
+  test:
+    name: Run script tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Run the smoke tests
+        run: bash tests/test_scripts.sh

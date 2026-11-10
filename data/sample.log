@@ -1,0 +1,7 @@
+2026-11-09 09:15:01 info: backup finished
+2026-11-09 09:15:04 info: disk check started
+2026-11-09 09:16:22 error: disk full
+2026-11-09 09:17:03 warning: low space on /home
+2026-11-09 09:18:40 Error: could not read config
+2026-11-09 09:19:11 info: service restarted
+2026-11-09 09:20:45 ERROR: service stopped

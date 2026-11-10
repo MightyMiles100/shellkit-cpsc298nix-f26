@@ -1,0 +1,3 @@
+Shellkit is a small set of scripts for an intro Linux class.
+Students practice files, permissions, and simple searches.
+This sample file is here so wordcount.sh has something to read.

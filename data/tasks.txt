@@ -1,0 +1,4 @@
+Review the sample log
+Count the words in sample.txt
+Back up the sample text file
+Check which scripts are executable
