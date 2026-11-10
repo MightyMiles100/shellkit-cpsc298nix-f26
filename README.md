@@ -9,13 +9,14 @@ This is a **GitHub collaboration** assignment. Your goal is not to rewrite the w
 **What you need to do:**
 
 1. **Fork** this repository and **clone** your fork (to local).
+    * see [here](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) for documentation on forking a repository on GitHub.
 2. **Pick one open issue** (start with `good first issue` if you want an easier one).
 3. **Comment on the issue** to claim it. Comment only your **first name and last initial** to identify yourself. 
     * Once an issue is claimed in a comment, you cannot take it for yourself, even if the PR hasn't been submitted. You must respect your co-collaborators.
 4. **Create a branch** for that issue only.
 5. **Make the smallest change** that matches the issue’s acceptance criteria.
 6. **Test** your change (`bash tests/test_scripts.sh` or `./tests/test_scripts.sh`).
-7. **Commit and push to your forked repo**. You are not a collaborator on the repo, so your PR must come from your fork (aka the copy of the repository that YOU own).
+7. **Commit and push to your forked repo**. You are not a contributor on the repo, so your PR must come from your fork (aka the copy of the repository that YOU own).
 8. **Open a pull request** that links the issue. Make sure the PR has a proper description as shown in class.
 8. Make sure the **GitHub Actions checks** on your PR are green.
 10. **COMPLETELY OPTIONAL**: If you think of another issue (e.g. another script to implement), you are more than welcome to submit an issue as well. Please make sure the issue is well formatted (as specified in class).
