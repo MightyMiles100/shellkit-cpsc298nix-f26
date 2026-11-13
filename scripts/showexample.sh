@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ..
 cd scripts
 echo `head -n 1 example.txt`
